@@ -1,0 +1,194 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+background:#f4f4f4;
+}
+
+header{
+display:flex;
+align-items:center;
+padding:25px;
+background:#222;
+color:white;
+}
+
+
+header h1{
+flex:1;
+text-align:center;
+font-size:52px;
+}
+
+header h1{
+font-size:52px;
+font-weight:700;
+text-transform:uppercase;
+letter-spacing:4px;
+}
+h2{
+text-align:center;
+margin-bottom:20px;
+color:#333;
+border-bottom:3px solid #ff6600;
+display:inline-block;
+padding-bottom:5px;
+}
+
+nav{
+background:#111;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 20px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ffcc00;
+border-bottom:2px solid #ffcc00;
+}
+
+
+.container{
+width:90%;
+margin:auto;
+padding:20px;
+}
+
+.banner{
+width:100%;
+height:400px;
+object-fit:cover;
+}
+
+.vehicle-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+
+.vehicle{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+text-align:center;
+transition:0.3s;
+}
+
+.vehicle:hover{
+transform:scale(1.05);
+}
+
+.vehicle img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:8px;
+}
+
+button{
+background:#ff6600;
+color:white;
+padding:10px 18px;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#e65c00;
+}  
+
+.item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+.details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+body{
+font-family:Arial, sans-serif;
+margin:0;
+background:linear-gradient(to right,#f5f7fa,#e4ecf7);
+}
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+font-size:14px;
+}
+
+
+form input, form textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.promo-section{
+display:flex;
+justify-content:space-between;
+margin-top:20px;
+gap:20px;
+}
+
+.promo-box{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+width:30%;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+height:120px;
+object-fit:cover;
+}
+
+.review{
+background:white;
+padding:15px;
+margin:10px 0;
+border-left:5px solid orange;
+}
